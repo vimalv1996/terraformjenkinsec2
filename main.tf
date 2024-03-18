@@ -26,7 +26,7 @@ user_data = <<-EOF
 
 resource "aws_security_group" "jenkins_sg" {
   name = "jenkins-sg"
-  vpc_id = "vpc-0a17b1954a7121c05"
+  vpc_id = "vpc-045c6605fd5cffa35"
 
  ingress  {
     from_port = 22
